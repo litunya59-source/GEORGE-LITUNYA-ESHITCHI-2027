@@ -104,7 +104,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="flag">Kenya Flag</div>
+    <div class="flag">NAIROBI DECIDES</div>
     <h1>GEORGE LITUNYA ESHUTCHI</h1>
     <h2>Embakasi Central MP 2027</h2>
     <p>Will you vote for <strong>George Litunya Eshutchi</strong> as your Member of Parliament in the 2027 General Election?</p>
@@ -136,15 +136,15 @@
         George Litunya Eshutchi – Embakasi Central MP 2027 Campaign Poll Rules
       </h3>
       <ol style="text-align: left; max-width: 500px; margin: 0 auto; opacity: 0.95;">
-        <li>This is an <strong>unofficial public opinion poll</strong> – not an official election.</li>
-        <li>One vote per browser/device (clear browser data to vote again – for testing only).</li>
+        <li>This is a Private <strong>official public opinion poll</strong> – not an official election.</li>
+        <li>One vote per browser/device (clear browser data).</li>
         <li>No personal data is collected. Votes are stored anonymously in your browser.</li>
-        <li>Results are live and public – for fun and campaign momentum only.</li>
+        <li>Results are live and public – for campaign momentum and strategic analysis only.</li>
         <li>This poll has no legal binding and is not connected to IEBC.</li>
         <li>Sharing is encouraged! Let all Embakasi Central residents vote.</li>
       </ol>
       <p style="margin-top: 20px; font-weight: 600;">
-        Tunaweza! Embakasi Central Tunaamka 2027!
+        Tucheze kisisi 27'! Embakasi Central Ndio ile lokeshen!
       </p>
     </div>
   </div>
@@ -161,7 +161,7 @@
       if (choice === 'yes') {
         yes++;
         localStorage.setItem('litunya2027_yes', yes);
-        alert("Asante sana ndugu! Your YES vote for George Litunya Eshutchi has been recorded. Hongera Embakasi Central!");
+        alert("Asante sana! Your YES vote for George Litunya Eshutchi has been recorded. Hongera Embakasi Central!");
       } else {
         no++;
         localStorage.setItem('litunya2027_no', no);
@@ -189,6 +189,7 @@
         navigator.share({ title: document.title, text: text, url: url });
       } else {
         prompt("Copy and share this link in WhatsApp groups:", url);
+        prompt("Copy and share this link on X:", url);
       }
     }
   </script>
